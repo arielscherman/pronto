@@ -45,6 +45,8 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('octokit', '~> 4.3', '>= 4.1.0')
   s.add_runtime_dependency('httparty', '>= 0.13.7', '< 0.15')
   s.add_runtime_dependency('rainbow', '~> 2.1')
+  s.add_dependency 'sawyer'
+
   s.add_development_dependency('rake', '~> 12.0')
   s.add_development_dependency('rspec', '~> 3.4')
   s.add_development_dependency('rspec-its', '~> 1.2')
